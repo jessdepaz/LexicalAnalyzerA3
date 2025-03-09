@@ -1,0 +1,76 @@
+/* Global Reset and Base Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Prevent scrolling */
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Main App Container */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Center vertically */
+  align-items: center;      /* Center horizontally */
+  height: 100vh;            /* Full viewport height */
+  width: 100vw;             /* Full viewport width */
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Textarea Styling */
+textarea {
+  width: 500px;
+  max-width: 90%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* List Styling */
+ul {
+  list-style: none;
+  padding: 0;
+  font-weight: bold;
+}
+
+li {
+  margin: 5px 0;
+  color: black; 
+}
+
+strong {
+  font-weight: bold;
+}
